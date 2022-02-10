@@ -1,0 +1,7 @@
+main {
+    height: calc(100vh - 76px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-background);
+}
