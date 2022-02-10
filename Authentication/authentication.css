@@ -76,6 +76,7 @@ main {
     padding: 2rem 4rem;
     border-radius: 5px;
     background-color: var(--white-color);
+    box-shadow: 1px 1px 5px 4px var(--secondary-color);
 }
 
 h1 {
