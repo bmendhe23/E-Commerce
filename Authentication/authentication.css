@@ -1,65 +1,8 @@
+@import url('../css/navigation.css');
+
 :root {
     --secondary-background: #eeeeee;
 }
-
-/* navbar styling */
-
-.navbar {
-    width: 90%;
-    padding: 20px 30px;
-}
-
-/* navbar links */
-
-.nav-links {
-    gap: 2.2rem;
-}
-
-/* navbar search */
-
-.searchbar {
-    display: flex;
-    flex: 0 1 350px;
-}
-
-.input-icon .material-icons {
-    top: 5px;
-    left: 10px;
-}
-
-.input-icon .input {
-    margin: 0;
-    border-radius: 4px;
-    font-size: medium;
-    padding-left: 40px;
-}
-
-.input-icon .input:focus {
-    border: 1px solid var(--primary-color);
-}
-
-/* navbar button */
-
-.btn {
-    border-radius: 0;
-    margin: 0;
-    padding: 7px 25px;
-    font-weight: 400;
-}
-
-/* navbar badges */
-
-.badge .material-icons-outlined {
-    display: flex;
-    align-items: center;
-}
-
-.badge .number {
-    top: -25%;
-    right: -25%;
-}
-
-/* navbar styling end */
 
 /* main login content */
 
