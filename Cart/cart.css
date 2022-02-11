@@ -42,13 +42,11 @@ main {
 }
 
 .horizontal-card .card-img {
-    max-width: 40%;
-    min-width: 40%;
+    width: 40%;
 }
 
 .horizontal-card .card-img img {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    border-radius: 0 0;
 }
 
 .horizontal-card-info {
