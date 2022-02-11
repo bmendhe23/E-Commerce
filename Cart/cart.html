@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnyxShop : Cart</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://onyx-ui.netlify.app/css/style.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="./cart.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <section class="brand">
+                <span class="brand-name"><a href="#">OnyxShop</a></span>
+            </section>
+            <section class="searchbar">
+                <div class="input-icon">
+                    <i class="material-icons">search</i>
+                    <input  class="input" type="text" placeholder="Search">
+                </div>
+            </section>
+            <section class="nav-links">
+                <button class="btn">Login</button>
+                <div class="badge">
+                    <i class="material-icons-outlined">favorite_border</i>
+                    <div class="number dnd">0</div>
+                </div>
+                <div class="badge">
+                    <i class="material-icons-outlined">shopping_cart</i>
+                    <div class="number dnd">0</div>
+                </div>
+            </section>
+        </nav>
+    </header>
+    <main>  
+        <h1 class="page-title">My Cart</h1>
+        <div class="cart-container">
+            <div class="cart-products">
+                <div class="horizontal-card">
+                    <img class="card-img" src="../assets/products/product.jpg" alt="Men Jacket">
+                    <div class="horizontal-card-info">
+                            <div class="horizontal-card-title">
+                               Men Premium Jacket 
+                            </div>
+                            <div class="product-price">
+                                <p class="discounted-price">₹2000</p>
+                                <p class="actual-price">₹3999</p>
+                            </div>
+                            <div class="product-discount">
+                                50% off
+                            </div>
+                            <div class="product-quantity">
+                                <p>Quantity:</p>
+                                <button class="btn minus-quantity"><i class="material-icons">remove</i></button>
+                                <input type="number" name="quantity" id="quantity" value="2">
+                                <button class="btn minus-quantity"><i class="material-icons">add</i></button>
+                            </div>
+                            <div class="cart-actions">
+                                <button class="btn">Remove From Cart</button>
+                                <button class="btn btn-outline">Move to Wishlist</button>
+                            </div>
+                    </div> 
+                </div>
+            </div>
+            <aside class="cart-summary">
+                <div class="text-card">
+                    <div class="card-title">
+                        PRICE DETAILS
+                    </div>
+                    <hr>
+                    <div class="card-description">
+                        <div class="price">
+                            <p>Price (2 items)</p>
+                            <p>₹4999</p>
+                        </div>
+                        <div class="discount-price">
+                            <p>Discount</p>
+                            <p>-₹1999</p>
+                        </div>
+                        <div class="delivery-charge">
+                            <p>Delivery Charges</p>
+                            <p>₹499</p>
+                        </div>
+                        <hr>
+                        <div class="total-amount">
+                            <p>TOTAL AMOUNT</p>
+                            <p>₹3499</p>
+                        </div>
+                        <hr>
+                        <div class="discount-msg">
+                            <p>You will save ₹1999 on this order.</p>
+                        </div>
+                        <div class="cart-actions">
+                            <button class="btn btn-primary">
+                                PLACE ORDER
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+</body>
+</html>
