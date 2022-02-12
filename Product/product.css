@@ -4,6 +4,10 @@
     grid-template-areas: "filters products";
 }
 
+.wrapper input {
+    cursor: pointer;
+}
+
 /* filter styles */
 
 .filter-container {
