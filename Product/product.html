@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnyxShop : Cart</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://onyx-ui.netlify.app/css/style.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../Cart/cart.css">
+    <link rel="stylesheet" href="./product.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <section class="brand">
+                <span class="brand-name"><a href="#">OnyxShop</a></span>
+            </section>
+            <section class="searchbar">
+                <div class="input-icon">
+                    <i class="material-icons">search</i>
+                    <input  class="input" type="text" placeholder="Search">
+                </div>
+            </section>
+            <section class="nav-links">
+                <button class="btn">Login</button>
+                <div class="badge">
+                    <i class="material-icons-outlined">favorite_border</i>
+                    <div class="number dnd">0</div>
+                </div>
+                <div class="badge">
+                    <i class="material-icons-outlined">shopping_cart</i>
+                    <div class="number dnd">0</div>
+                </div>
+            </section>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <aside class="filter-container">
+            <div class="title">
+                <h2>Filters</h2>
+                <h2>Clear</h2>
+            </div>
+            <div class="price-filter">
+                <h2>Price</h2>
+                <div class="slider">
+                    <p>50</p>
+                    <p>150</p>
+                    <p>200</p>
+                </div>
+                <input type="range" name="price" id="">
+            </div>
+            <div class="category-filter">
+                <h2>Category</h2>
+                <div class="checkbox">
+                    <label for="Men Clothing">
+                        <input type="checkbox">
+                        Men Clothing
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label for="Men Clothing">
+                        <input type="checkbox">
+                        Men Clothing
+                    </label>
+                </div>
+            </div>
+            <div class="rating-filter">
+                <h2>Rating</h2>
+                <div class="radio">
+                    <label for="4start&above">
+                        <input name="rating" type="radio">
+                        4 Stars & above
+                    </label>
+                </div>
+                <div class="radio">
+                    <label for="3start&above">
+                        <input name="rating" type="radio">
+                        3 Stars & above
+                    </label>
+                </div>
+                <div class="radio">
+                    <label for="2start&above">
+                        <input name="rating" type="radio">
+                        2 Stars & above
+                    </label>
+                </div>
+                <div class="radio">
+                    <label for="1start&above">
+                        <input name="rating" type="radio">
+                        1 Stars & above
+                    </label>
+                </div>
+            </div>
+            <div class="sort-by-filter">
+                <h2>Sort by</h2>
+                <div class="radio">
+                    <label for="low-to-high">
+                        <input name="price-sort" type="radio">
+                        Price - Low to High
+                    </label>
+                </div>
+                <div class="radio">
+                    <label for="high-to-low">
+                        <input name="price-sort" type="radio">
+                        Price - High to Low
+                    </label>
+                </div>
+            </div>
+        </aside>
+        <main class="products-container">  
+            <h2 class="page-title">Showing All Products <small>(Showing 20 products)</small></h2>
+            <div class="products-grid">
+                <div class="horizontal-card">
+                    <img class="card-img" src="../assets/products/product.jpg" alt="Men Jacket">
+                    <div class="horizontal-card-info">
+                        <div class="horizontal-card-title">
+                            Men Premium Jacket 
+                        </div>
+                        <div class="product-price">
+                            <p class="discounted-price">₹2000</p>
+                            <p class="actual-price">₹3999</p>
+                        </div>
+                        <div class="product-discount">
+                            50% off
+                        </div>
+                        <div class="cart-actions">
+                            <button class="btn">Remove From Cart</button>
+                            <button class="btn btn-outline">Move to Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-card">
+                    <img class="card-img" src="../assets/products/product.jpg" alt="Men Jacket">
+                    <div class="horizontal-card-info">
+                        <div class="horizontal-card-title">
+                            Men Premium Jacket 
+                        </div>
+                        <div class="product-price">
+                            <p class="discounted-price">₹2000</p>
+                            <p class="actual-price">₹3999</p>
+                        </div>
+                        <div class="product-discount">
+                            50% off
+                        </div>
+                        <div class="cart-actions">
+                            <button class="btn">Remove From Cart</button>
+                            <button class="btn btn-outline">Move to Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-card">
+                    <img class="card-img" src="../assets/products/product.jpg" alt="Men Jacket">
+                    <div class="horizontal-card-info">
+                        <div class="horizontal-card-title">
+                            Men Premium Jacket 
+                        </div>
+                        <div class="product-price">
+                            <p class="discounted-price">₹2000</p>
+                            <p class="actual-price">₹3999</p>
+                        </div>
+                        <div class="product-discount">
+                            50% off
+                        </div>
+                        <div class="cart-actions">
+                            <button class="btn">Remove From Cart</button>
+                            <button class="btn btn-outline">Move to Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-card">
+                    <img class="card-img" src="../assets/products/product.jpg" alt="Men Jacket">
+                    <div class="horizontal-card-info">
+                        <div class="horizontal-card-title">
+                            Men Premium Jacket 
+                        </div>
+                        <div class="product-price">
+                            <p class="discounted-price">₹2000</p>
+                            <p class="actual-price">₹3999</p>
+                        </div>
+                        <div class="product-discount">
+                            50% off
+                        </div>
+                        <div class="cart-actions">
+                            <button class="btn">Remove From Cart</button>
+                            <button class="btn btn-outline">Move to Wishlist</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </main>
+    </div>
+</body>
+</html>
