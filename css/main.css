@@ -1,0 +1,88 @@
+main {
+    height: 100%;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: var(--secondary-background);
+}
+
+/* top card collection */
+
+.men-card-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.img-overlay-card {
+    background-image: url('../assets/men\ fashion.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8.75rem;
+    flex: 1 1 17.875rem;
+}
+
+.img-overlay-card .overlay-text {
+    text-align: center;
+    width: 100%;
+    background-color: var(--white-color);
+}
+
+/* top card collection end */
+
+/* banner */
+
+.banner img {
+    max-width: 100%;
+}
+
+/* banner end */
+
+/* collection cards */
+
+.collection-card {
+    display: flex;
+    gap: 2rem;
+}
+
+.card-container {
+    background-color: var(--white-color);
+    padding: 2rem;
+    display: flex;
+    flex: 1 1 48.938rem;
+}
+
+.card-img-container img{
+    width: 12.75rem;
+    height: 14.813rem;
+    object-fit: cover;
+}
+
+.collection-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.collection-info section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.collection-info>section>h2 {
+    font-size: 1.75rem;
+    line-height: 2.625rem;
+}
+
+.collection-info>section>p {
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+}
+
+/* collection cards */
