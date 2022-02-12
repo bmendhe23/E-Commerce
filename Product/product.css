@@ -1,0 +1,86 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 375px 1fr;
+    grid-template-areas: "filters products";
+}
+
+.wrapper input {
+    cursor: pointer;
+}
+
+/* filter styles */
+
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    grid-area: filters;
+    padding: 2rem;
+}
+
+.filter-container .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-container .title h2:nth-of-type(2) {
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.filter-container .slider {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.price-filter input {
+    width: 100%;
+}
+
+.category-filter h2, .rating-filter h2, .sort-by-filter h2 {
+    margin-bottom: 1rem;
+}
+
+.category-filter input {
+    width: 20px;
+    height: 20px;
+}
+
+.rating-filter input, .sort-by-filter input {
+    width: 14px;
+    height: 14px;
+}
+
+/* filter styles end */
+
+.page-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    text-align: left;
+}
+
+.page-title small {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.products-container {
+    width: 100%;
+    padding: 2rem;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    grid-area: products;
+}
+
+.products-grid {
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+/* card styling */

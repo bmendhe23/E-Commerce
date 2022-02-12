@@ -47,11 +47,20 @@
     font-weight: 400;
 }
 
+.navbar .btn:hover {
+    background-color: var(--gray-color);
+}
+
 /* navbar badges */
 
 .badge .material-icons-outlined {
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.badge .material-icons-outlined:hover {
+    color: var(--gray-color);
 }
 
 .badge .number {
